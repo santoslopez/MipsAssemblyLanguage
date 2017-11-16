@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Tutorial de Mips Assembly Language
 
-You can use the [editor on GitHub](https://github.com/santoslopez/MipsAssemblyLanguage/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Probando archivos
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Para probar los archivos necesitamos de un simulador de Mips llamado Mars. Lo primero es descargarse este simulador.
+Pueden visitar el siguiente sitio para descargarse la última versión del [simulador](http://courses.missouristate.edu/KenVollmar/mars/download.htm) o si prefieren pueden descargarse el Jar que se encuentra en mi perfil de [github](https://github.com/santoslopez/MipsAssemblyLanguage/blob/master/Mars4_5.jar)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### Abriendo el archivo Jar
+Lo primero es situarnos desde la línea de comandos (consola, cmd) en la carpeta donde lo descargamos.
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+santoslopez@harvard:~/Downloads$ java Mars4_5.jar
 ```
+Si en la línea anterior nuestro archivo lo descargamos en la carpeta Downloads, entonces una vez que estemos situados allí desde
+la consola ejecutamos el comando java Mars4_5.jar
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Nota: donde el texto del comando ingresado Mars4_5.jar puede variar dependiendo del nombre que tenga nuestro archivo descargado.
 
-### Jekyll Themes
+Una vez se estemos dentro del simulador podemos abrir los archivos y ejecutarlos para probarlos.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/santoslopez/MipsAssemblyLanguage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Acerca de los ejemplos
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Los ejemplos publicados en mi perfil de github no son de mi autoría. Su publicación se realiza con la finalidad de que otros
+puedan aprender o reforzar sobre Estructura de Máquinas, y dentro de los archivos están los enlaces de la procedencia del 
+código.
