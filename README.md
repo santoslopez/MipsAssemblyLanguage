@@ -8,14 +8,17 @@ Pueden visitar el siguiente sitio para descargarse la última versión del [simu
 ### Abriendo el archivo Jar
 Lo primero es situarnos desde la línea de comandos (consola, cmd) en la carpeta donde lo descargamos.
 ```markdown
+santoslopez@harvard:~/Downloads$
+```
+Ahora abrimos el simulador ejecutando el siguiente comando:
+```markdown
 santoslopez@harvard:~/Downloads$ java Mars4_5.jar
 ```
-Si en la línea anterior nuestro archivo lo descargamos en la carpeta Downloads, entonces una vez que estemos situados allí desde
-la consola ejecutamos el comando java Mars4_5.jar
 
-Nota: donde el texto del comando ingresado Mars4_5.jar puede variar dependiendo del nombre que tenga nuestro archivo descargado.
-
-Una vez se estemos dentro del simulador podemos abrir los archivos y ejecutarlos para probarlos.
+Nota: si nuestro archivo .jar que descargamos tuviera otro nombre entonces en la línea de comando usamos este nombre para abrir el simulador. Por ejemplo descargamos un . jar que se llama Mars5.jar para abrirlo ingresamos el siguiente comando:
+```markdown
+santoslopez@harvard:~/Downloads$ java Mars5.jar
+```
 
 ### Acerca de los ejemplos
 
