@@ -24,3 +24,5 @@ santoslopez@harvard:~/Downloads$ java Mars5.jar
 
 Los ejemplos publicados en mi perfil de github no son de mi autoría. Su publicación se realiza con la finalidad de que otros
 puedan aprender o reforzar sobre Estructura de Máquinas y no sepan inglés (si hay ejemplos en español pero son pocos), y dentro de los archivos están los enlaces de la procedencia del código.
+
+La mayoría de los ejemplos fueron extraídas del canal de [youtube](https://www.youtube.com/watch?v=u5Foo6mmW0I)
